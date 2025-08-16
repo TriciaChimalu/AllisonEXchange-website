@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%
+}
+
+body{
+    background: #eee;
+}
+
+li,a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+  
+    
+
+}
+.logo{
+    width:10%;
+    margin-right: 30px;
+
+}
+.header{
+    height:100vh;
+    width:100%;
+    background: url('image/bg.jpg')no-repeat center center/cover;
+    position: relative;
+       
+}
+header::before{
+   content: '';
+   position:absolute;
+   height:100%;
+   width:100%;
+   top:0;right:0;bottom:0;left:0;
+   z-index: 1;
+   background-color: rgba(0,0,0,0.6);
+}
+.header .container{
+    position: relative;
+    z-index:1;
+    color:white;
+    text-align: center;
+}
+
+.main-nav{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    color:rgb(139, 216, 235);
+    padding:0 1rem;
+    font-weight:600;
+    font-size:18px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.nav-links:hover{
+    background-color: #eee;
+}
+.nav-link-btn{
+     display: inline-block;
+    padding:1.5rem 2.5rem;
+    border:2px solid orangered;
+    border-radius: 10rem;
+    font-size:18px;
+    color:black;
+   
+    background: #fff;
+
+
+}
+.hero-text{
+    margin-top:30rem;
+    text-align:center
+
+}
+.primary-heading{
+    font-size:5rem;
+    color:aqua;
+    text-align: center;
+}
+.primary-text{
+    font-size:2rem;
+    text-align: center;
+    margin-top:2rem
+
+}
+
+.hero-btn{
+    display: inline-block;
+    padding:1rem 2rem;
+    border:2px solid orangered;
+    border-radius: 10rem;
+    font-size:18px;
+    color:black;
+    margin-top: 1.5rem;
+    background: transparent;
+}
+.hero-btn:hover,.nav-link-btn:hover{
+    background: orangered;
+    color:white
+}
+.service-section{
+    margin: 3rem 0;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap:6rem;
+     padding:0 2rem;
+     background:inherit ;
+     box-shadow: 0 .4rem .6rem rgba(0,0,0,0.1);
+}
+.service-items{
+    width:25rem;
+    height:25rem;
+    border:2px solid black;
+    border-radius: 50%;
+    text-align: center;
+  padding:9rem;
+    
+}
+.sec-text{
+    margin-top:1rem
+}
+
+/*FAQ*/
+
+
+
+:root{   
+--White:hsl(0, 0%, 100%);
+--Light-pink: hsl(275, 100%, 97%);
+--Grayish-purple: hsl(292, 16%, 49%);
+--Dark-purple: hsl(292, 42%, 14%);
+}
+.FAQ-section{
+    margin:6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Dark-purple);
+}
+
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width:50%;
+    background:#eee;
+    border-radius:2rem;
+    margin:2rem auto;
+    padding:2rem;
+     box-shadow: 0 .4rem .6rem rgba(0,0,0,0.1);
+}
+span{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+    margin:2.4rem 3.2rem;
+    font-size:4rem;
+    margin-bottom:5rem
+}
+h3{
+  font-size:3rem;
+  font-weight:700;
+}
+.heading{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    margin-top:2rem;
+    margin-bottom:4.4rem;
+    line-height:1.7;    
+    
+}
+h4{
+    font-weight:600;
+    font-size:3rem;
+
+}
+button{
+    border:none;
+    background: none;
+}
+.icon-btn{
+    width:4.4rem;
+    height:4.4rem
+}
+button .close{
+    display: none;
+}
+.item{
+    border-bottom:2px solid var(--Light-pink) ;
+    border-bottom-style: ridge;
+
+}
+item:last-child{
+    border-bottom:2px solid var(--Light-pink)
+}
+.hidden-box{
+    display:none;
+    margin-bottom:3rem
+}
+
+.hidden-box p{
+    
+
+    font-size:2.8rem;
+    background-color: var(--White);
+    line-height:1.6;
+    color:var(--Grayish-purple);
+    padding:1.3rem 0;
+     
+
+}
+.open .hidden-box{
+    display:block
+}
+
+
+/*****ENDS here**/
+
+
+
+footer{
+    background: #000;
+    color:#eee;
+    padding-top:2rem
+}
+
+.footer-logo{
+    width:4%}
