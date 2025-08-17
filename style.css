@@ -129,9 +129,10 @@ header::before{
     display: flex;
     justify-content: center;
     gap:6rem;
-     padding:0 2rem;
+     padding:3rem 2rem;
      background:inherit ;
      box-shadow: 0 .4rem .6rem rgba(0,0,0,0.1);
+     margin:3rem
 }
 .service-items{
     width:25rem;
@@ -173,8 +174,8 @@ header::before{
 }
 .missiontext-container{
     width:50%;
-    color:rgb(2, 49, 49);
-    margin: 0 auto
+    color:#333;
+    margin: 3rem auto
 }
 
 .section-why-us{
@@ -248,11 +249,11 @@ header::before{
     flex-direction: column;
     gap:2rem;
     width:40%;
-    background:#c92929;
+    background:#fff;
     border-radius:2rem;
     margin:2rem auto;
     padding:2rem;
-     box-shadow: 0 .4rem .6rem rgba(0,0,0,0.1);
+     box-shadow: 0 .4rem 10rem rgba(0,0,0,0.1);
 }
 .faQ-heading{
   font-size:4rem
