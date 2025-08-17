@@ -146,6 +146,86 @@ header::before{
     margin-top:1rem
 }
 
+.hw-container{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+     padding:0 2rem;
+     background: #000;
+     box-shadow: 0 .4rem .6rem rgba(0,0,0,0.1);
+
+}
+.How-it-works-items{
+    width:30rem;
+    height:30rem;
+    background: #fff;
+    border:2px solid black;
+    border-radius: 2rem;
+    text-align: center;
+    padding:9rem;
+    margin:4rem
+
+}
+.About-us-section{
+    margin:6rem;
+    color:aqua;
+    font-size: 2rem;
+}
+.missiontext-container{
+    width:50%;
+    color:rgb(2, 49, 49);
+    margin: 0 auto
+}
+
+.section-why-us{
+    margin:3rem 2rem
+}
+.why-container{
+    background: #000;
+    height:40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10rem;
+    color:#fff;
+    border-radius: 2rem;
+    padding:10rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.why-container::before{
+    content:'';
+    position:absolute;
+    top:0;bottom: 0;right: 0;
+    width:60%;
+    background: radial-gradient(circle at 80% center,rgba(88,130,255,0.3),
+     rgba(150,80,255,0.3),
+    transparent 70% );
+    z-index:0
+}
+.stats-box{
+    flex:1;
+    border-left:1px solid rgba(255,255,255,0.1);
+    padding-left:4rem
+}
+
+
+.why-text,.stats-items{
+    z-index:1;position: relative;
+}
+.stats-items{
+   
+ margin: 2rem 0;
+ font-size:2rem;
+    
+}
+.stats-items span{
+    display: block;
+    font-size:.9rem;
+    opacity:0.7
+}
+
 /*FAQ*/
 
 
@@ -157,23 +237,25 @@ header::before{
 --Dark-purple: hsl(292, 42%, 14%);
 }
 .FAQ-section{
-    margin:6rem 0;
+    margin:2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--Dark-purple);
 }
 
 .faq-container{
     display: flex;
     flex-direction: column;
     gap:2rem;
-    width:50%;
-    background:#eee;
+    width:40%;
+    background:#c92929;
     border-radius:2rem;
     margin:2rem auto;
     padding:2rem;
      box-shadow: 0 .4rem .6rem rgba(0,0,0,0.1);
+}
+.faQ-heading{
+  font-size:4rem
 }
 span{
     display:flex;
